@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #111111;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: #EBEBEB;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    color: #F28B2D;
+}
+
+.day, .hour, .minute, .second{ 
+    padding: 2rem;
+    font-size: 5rem;
+    color: #ffffff;
+    
+}
